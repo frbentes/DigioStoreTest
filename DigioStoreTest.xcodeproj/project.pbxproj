@@ -8,14 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		465C62662C01223F00B497E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465C62652C01223F00B497E3 /* AppDelegate.swift */; };
-		465C62682C01223F00B497E3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465C62672C01223F00B497E3 /* SceneDelegate.swift */; };
-		465C626A2C01223F00B497E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465C62692C01223F00B497E3 /* ViewController.swift */; };
-		465C626D2C01223F00B497E3 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 465C626C2C01223F00B497E3 /* Base */; };
 		465C626F2C01224100B497E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 465C626E2C01224100B497E3 /* Assets.xcassets */; };
-		465C62722C01224100B497E3 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 465C62712C01224100B497E3 /* Base */; };
 		465C627D2C01224100B497E3 /* DigioStoreTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465C627C2C01224100B497E3 /* DigioStoreTestTests.swift */; };
 		465C62872C01224100B497E3 /* DigioStoreTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465C62862C01224100B497E3 /* DigioStoreTestUITests.swift */; };
 		465C62892C01224100B497E3 /* DigioStoreTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465C62882C01224100B497E3 /* DigioStoreTestUITestsLaunchTests.swift */; };
+		465C62A52C0678F100B497E3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465C62A42C0678F100B497E3 /* HomeViewController.swift */; };
+		465C62A72C06791E00B497E3 /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465C62A62C06791E00B497E3 /* ProductViewController.swift */; };
+		465C62A92C067A4D00B497E3 /* Spotlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465C62A82C067A4C00B497E3 /* Spotlight.swift */; };
+		465C62AB2C067A6E00B497E3 /* Cash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465C62AA2C067A6E00B497E3 /* Cash.swift */; };
+		465C62AD2C067A7D00B497E3 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465C62AC2C067A7D00B497E3 /* Product.swift */; };
+		465C62AF2C067B2400B497E3 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465C62AE2C067B2400B497E3 /* HomeCoordinator.swift */; };
+		465C62B22C067E2D00B497E3 /* HomeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465C62B12C067E2D00B497E3 /* HomeService.swift */; };
+		465C62B42C067EA600B497E3 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465C62B32C067EA600B497E3 /* HomeViewModel.swift */; };
+		465C62B82C06A29600B497E3 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 465C62B72C06A29600B497E3 /* Kingfisher */; };
+		465C62BA2C06A4E700B497E3 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465C62B92C06A4E700B497E3 /* Coordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,17 +44,22 @@
 /* Begin PBXFileReference section */
 		465C62622C01223F00B497E3 /* DigioStoreTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DigioStoreTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		465C62652C01223F00B497E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		465C62672C01223F00B497E3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		465C62692C01223F00B497E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		465C626C2C01223F00B497E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		465C626E2C01224100B497E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		465C62712C01224100B497E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		465C62732C01224100B497E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		465C62782C01224100B497E3 /* DigioStoreTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DigioStoreTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		465C627C2C01224100B497E3 /* DigioStoreTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigioStoreTestTests.swift; sourceTree = "<group>"; };
 		465C62822C01224100B497E3 /* DigioStoreTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DigioStoreTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		465C62862C01224100B497E3 /* DigioStoreTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigioStoreTestUITests.swift; sourceTree = "<group>"; };
 		465C62882C01224100B497E3 /* DigioStoreTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigioStoreTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		465C62A42C0678F100B497E3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		465C62A62C06791E00B497E3 /* ProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+		465C62A82C067A4C00B497E3 /* Spotlight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spotlight.swift; sourceTree = "<group>"; };
+		465C62AA2C067A6E00B497E3 /* Cash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cash.swift; sourceTree = "<group>"; };
+		465C62AC2C067A7D00B497E3 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		465C62AE2C067B2400B497E3 /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
+		465C62B12C067E2D00B497E3 /* HomeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeService.swift; sourceTree = "<group>"; };
+		465C62B32C067EA600B497E3 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		465C62B92C06A4E700B497E3 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				465C62B82C06A29600B497E3 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,12 +111,13 @@
 		465C62642C01223F00B497E3 /* DigioStoreTest */ = {
 			isa = PBXGroup;
 			children = (
+				465C62A22C0677CC00B497E3 /* Coordinator */,
+				465C629F2C06754B00B497E3 /* Model */,
+				465C62B02C067DCD00B497E3 /* Network */,
+				465C62A12C06757D00B497E3 /* View */,
+				465C62A32C06785500B497E3 /* ViewModel */,
 				465C62652C01223F00B497E3 /* AppDelegate.swift */,
-				465C62672C01223F00B497E3 /* SceneDelegate.swift */,
-				465C62692C01223F00B497E3 /* ViewController.swift */,
-				465C626B2C01223F00B497E3 /* Main.storyboard */,
 				465C626E2C01224100B497E3 /* Assets.xcassets */,
-				465C62702C01224100B497E3 /* LaunchScreen.storyboard */,
 				465C62732C01224100B497E3 /* Info.plist */,
 			);
 			path = DigioStoreTest;
@@ -127,6 +140,58 @@
 			path = DigioStoreTestUITests;
 			sourceTree = "<group>";
 		};
+		465C629F2C06754B00B497E3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				465C62A82C067A4C00B497E3 /* Spotlight.swift */,
+				465C62AA2C067A6E00B497E3 /* Cash.swift */,
+				465C62AC2C067A7D00B497E3 /* Product.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		465C62A12C06757D00B497E3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				465C62A42C0678F100B497E3 /* HomeViewController.swift */,
+				465C62A62C06791E00B497E3 /* ProductViewController.swift */,
+				465C62B52C0688ED00B497E3 /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		465C62A22C0677CC00B497E3 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				465C62B92C06A4E700B497E3 /* Coordinator.swift */,
+				465C62AE2C067B2400B497E3 /* HomeCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		465C62A32C06785500B497E3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				465C62B32C067EA600B497E3 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		465C62B02C067DCD00B497E3 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				465C62B12C067E2D00B497E3 /* HomeService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		465C62B52C0688ED00B497E3 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +208,9 @@
 			dependencies = (
 			);
 			name = DigioStoreTest;
+			packageProductDependencies = (
+				465C62B72C06A29600B497E3 /* Kingfisher */,
+			);
 			productName = DigioStoreTest;
 			productReference = 465C62622C01223F00B497E3 /* DigioStoreTest.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +283,10 @@
 				Base,
 			);
 			mainGroup = 465C62592C01223F00B497E3;
+			packageReferences = (
+				465C629A2C06726C00B497E3 /* XCRemoteSwiftPackageReference "SwiftLint" */,
+				465C62B62C06A25000B497E3 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 465C62632C01223F00B497E3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,8 +304,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				465C626F2C01224100B497E3 /* Assets.xcassets in Resources */,
-				465C62722C01224100B497E3 /* Base in Resources */,
-				465C626D2C01223F00B497E3 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +328,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				465C626A2C01223F00B497E3 /* ViewController.swift in Sources */,
+				465C62A92C067A4D00B497E3 /* Spotlight.swift in Sources */,
+				465C62B42C067EA600B497E3 /* HomeViewModel.swift in Sources */,
+				465C62BA2C06A4E700B497E3 /* Coordinator.swift in Sources */,
+				465C62AD2C067A7D00B497E3 /* Product.swift in Sources */,
+				465C62AF2C067B2400B497E3 /* HomeCoordinator.swift in Sources */,
+				465C62B22C067E2D00B497E3 /* HomeService.swift in Sources */,
 				465C62662C01223F00B497E3 /* AppDelegate.swift in Sources */,
-				465C62682C01223F00B497E3 /* SceneDelegate.swift in Sources */,
+				465C62AB2C067A6E00B497E3 /* Cash.swift in Sources */,
+				465C62A72C06791E00B497E3 /* ProductViewController.swift in Sources */,
+				465C62A52C0678F100B497E3 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,25 +372,6 @@
 			targetProxy = 465C62832C01224100B497E3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		465C626B2C01223F00B497E3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				465C626C2C01223F00B497E3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		465C62702C01224100B497E3 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				465C62712C01224100B497E3 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		465C628A2C01224100B497E3 /* Debug */ = {
@@ -442,14 +500,15 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 6R4846NX8V;
+				DEVELOPMENT_TEAM = WAWNG4XA39;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DigioStoreTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -457,9 +516,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.frbentes.DigioStoreTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -470,14 +533,15 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 6R4846NX8V;
+				DEVELOPMENT_TEAM = WAWNG4XA39;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DigioStoreTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -485,9 +549,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.frbentes.DigioStoreTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -607,6 +675,33 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		465C629A2C06726C00B497E3 /* XCRemoteSwiftPackageReference "SwiftLint" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/SwiftLint.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.55.1;
+			};
+		};
+		465C62B62C06A25000B497E3 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		465C62B72C06A29600B497E3 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 465C62B62C06A25000B497E3 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 465C625A2C01223F00B497E3 /* Project object */;
 }
