@@ -32,17 +32,17 @@ class CashCell: UITableViewCell {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         commonInit()
     }
-
+    
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         commonInit()
     }
-
+    
     override func prepareForReuse() {
         super.prepareForReuse()
         data = nil
     }
-
+    
     private func commonInit() {
         setupView()
     }
@@ -60,8 +60,5 @@ class CashCell: UITableViewCell {
     
     private func refreshUI() {
         guard let data = data else { return }
-        
-        
     }
 }
-

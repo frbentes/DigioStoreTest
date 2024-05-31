@@ -12,7 +12,7 @@ class SpotlightCell: UICollectionViewCell {
     public static let identifier = String(describing: SpotlightCell.self)
     
     // MARK: - Views
-    private lazy var containerView: UIView = {
+    private lazy var viewContainer: UIView = {
         let view = UIView()
         view.layer.cornerRadius = 20
         view.clipsToBounds = true
@@ -20,7 +20,7 @@ class SpotlightCell: UICollectionViewCell {
         return view
     }()
     
-    private lazy var spotlightImageView: UIImageView = {
+    private lazy var imageViewSpotlight: UIImageView = {
         let imageView = UIImageView(image: nil)
         imageView.contentMode = .scaleAspectFit
         imageView.translatesAutoresizingMaskIntoConstraints = false
@@ -48,8 +48,8 @@ class SpotlightCell: UICollectionViewCell {
     }
     
     private func setupView() {
-        contentView.addSubview(containerView)
-        containerView.addSubview(spotlightImageView)
+        contentView.addSubview(viewContainer)
+        viewContainer.addSubview(imageViewSpotlight)
         
         setupConstraints()
     }
@@ -60,7 +60,5 @@ class SpotlightCell: UICollectionViewCell {
     
     private func refreshUI() {
         guard let data = data else { return }
-        
-        
     }
 }

@@ -3,6 +3,8 @@ excluded:
 
 disabled_rules:
   - orphaned_doc_comment
+  - leading_whitespace
+  - trailing_whitespace
 
 opt_in_rules:
   - indentation_width
@@ -14,7 +16,7 @@ opt_in_rules:
 force_cast: warning
 
 indentation_width:
-  indentation_width: 2
+  indentation_width: 4
 
 line_length:
   ignores_urls: true
@@ -31,9 +33,6 @@ identifier_name:
     - x
     - y
     - z
-
-indentation_width:
-  indentation_width: 2
 
 custom_rules:
   array_constructor:

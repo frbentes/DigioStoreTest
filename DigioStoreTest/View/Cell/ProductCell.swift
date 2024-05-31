@@ -59,7 +59,5 @@ class ProductCell: UICollectionViewCell {
     
     private func refreshUI() {
         guard let data = data else { return }
-        
-        
     }
 }

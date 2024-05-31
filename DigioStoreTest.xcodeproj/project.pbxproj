@@ -10,8 +10,6 @@
 		465C62662C01223F00B497E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465C62652C01223F00B497E3 /* AppDelegate.swift */; };
 		465C626F2C01224100B497E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 465C626E2C01224100B497E3 /* Assets.xcassets */; };
 		465C627D2C01224100B497E3 /* DigioStoreTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465C627C2C01224100B497E3 /* DigioStoreTestTests.swift */; };
-		465C62872C01224100B497E3 /* DigioStoreTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465C62862C01224100B497E3 /* DigioStoreTestUITests.swift */; };
-		465C62892C01224100B497E3 /* DigioStoreTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465C62882C01224100B497E3 /* DigioStoreTestUITestsLaunchTests.swift */; };
 		465C62A52C0678F100B497E3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465C62A42C0678F100B497E3 /* HomeViewController.swift */; };
 		465C62A72C06791E00B497E3 /* ProductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465C62A62C06791E00B497E3 /* ProductDetailViewController.swift */; };
 		465C62AF2C067B2400B497E3 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465C62AE2C067B2400B497E3 /* HomeCoordinator.swift */; };
@@ -24,6 +22,7 @@
 		465C62C02C07F35600B497E3 /* CashCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465C62BF2C07F35600B497E3 /* CashCell.swift */; };
 		465C62C22C07F37400B497E3 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465C62C12C07F37400B497E3 /* ProductCell.swift */; };
 		465C62C42C086B9A00B497E3 /* ProductDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465C62C32C086B9A00B497E3 /* ProductDetailModel.swift */; };
+		465C62C62C09096200B497E3 /* HomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465C62C52C09096200B497E3 /* HomeHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,8 +50,6 @@
 		465C62782C01224100B497E3 /* DigioStoreTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DigioStoreTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		465C627C2C01224100B497E3 /* DigioStoreTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigioStoreTestTests.swift; sourceTree = "<group>"; };
 		465C62822C01224100B497E3 /* DigioStoreTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DigioStoreTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		465C62862C01224100B497E3 /* DigioStoreTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigioStoreTestUITests.swift; sourceTree = "<group>"; };
-		465C62882C01224100B497E3 /* DigioStoreTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigioStoreTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		465C62A42C0678F100B497E3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		465C62A62C06791E00B497E3 /* ProductDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailViewController.swift; sourceTree = "<group>"; };
 		465C62AE2C067B2400B497E3 /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
@@ -64,6 +61,7 @@
 		465C62BF2C07F35600B497E3 /* CashCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashCell.swift; sourceTree = "<group>"; };
 		465C62C12C07F37400B497E3 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
 		465C62C32C086B9A00B497E3 /* ProductDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailModel.swift; sourceTree = "<group>"; };
+		465C62C52C09096200B497E3 /* HomeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +95,6 @@
 			children = (
 				465C62642C01223F00B497E3 /* DigioStoreTest */,
 				465C627B2C01224100B497E3 /* DigioStoreTestTests */,
-				465C62852C01224100B497E3 /* DigioStoreTestUITests */,
 				465C62632C01223F00B497E3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -133,15 +130,6 @@
 				465C627C2C01224100B497E3 /* DigioStoreTestTests.swift */,
 			);
 			path = DigioStoreTestTests;
-			sourceTree = "<group>";
-		};
-		465C62852C01224100B497E3 /* DigioStoreTestUITests */ = {
-			isa = PBXGroup;
-			children = (
-				465C62862C01224100B497E3 /* DigioStoreTestUITests.swift */,
-				465C62882C01224100B497E3 /* DigioStoreTestUITestsLaunchTests.swift */,
-			);
-			path = DigioStoreTestUITests;
 			sourceTree = "<group>";
 		};
 		465C629F2C06754B00B497E3 /* Model */ = {
@@ -191,6 +179,7 @@
 		465C62B52C0688ED00B497E3 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
+				465C62C52C09096200B497E3 /* HomeHeaderView.swift */,
 				465C62BD2C07EF6200B497E3 /* SpotlightCell.swift */,
 				465C62BF2C07F35600B497E3 /* CashCell.swift */,
 				465C62C12C07F37400B497E3 /* ProductCell.swift */,
@@ -206,6 +195,7 @@
 			buildConfigurationList = 465C628C2C01224100B497E3 /* Build configuration list for PBXNativeTarget "DigioStoreTest" */;
 			buildPhases = (
 				465C625E2C01223F00B497E3 /* Sources */,
+				465C62C72C093CF400B497E3 /* SwiftLint */,
 				465C625F2C01223F00B497E3 /* Frameworks */,
 				465C62602C01223F00B497E3 /* Resources */,
 			);
@@ -329,6 +319,28 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		465C62C72C093CF400B497E3 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [[ \"$(uname -m)\" == arm64 ]]\nthen\n    export PATH=\"/opt/homebrew/bin:$PATH\"\nfi\n\nif command -v swiftlint >/dev/null 2>&1\nthen\n    swiftlint\nelse\n    echo \"warning: `swiftlint` command not found - See https://github.com/realm/SwiftLint#installation for installation instructions.\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		465C625E2C01223F00B497E3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -336,6 +348,7 @@
 			files = (
 				465C62B42C067EA600B497E3 /* HomeViewModel.swift in Sources */,
 				465C62C22C07F37400B497E3 /* ProductCell.swift in Sources */,
+				465C62C62C09096200B497E3 /* HomeHeaderView.swift in Sources */,
 				465C62BC2C07CFDF00B497E3 /* HomeModel.swift in Sources */,
 				465C62BA2C06A4E700B497E3 /* Coordinator.swift in Sources */,
 				465C62AF2C067B2400B497E3 /* HomeCoordinator.swift in Sources */,
@@ -361,8 +374,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				465C62872C01224100B497E3 /* DigioStoreTestUITests.swift in Sources */,
-				465C62892C01224100B497E3 /* DigioStoreTestUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,7 +430,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -482,7 +493,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
